@@ -1,0 +1,84 @@
+body {
+	background-image: url(images/tile.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Lobster', cursive;
+}
+
+.celebrity-img-div {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+    width: 200px;
+    min-width: 200px;
+    border-radius: 5px;
+    margin: 1em;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.75);
+}
+
+.celeb-img-text {
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.celebrity-img-div:hover > p {
+	display: flex;
+}
+
+#celebrities-list {
+	overflow-x: scroll;
+	padding: 1em 1em;
+	width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background: #f4f4f4;
+	border-top: 3px dotted #e5e5e5;
+	border-bottom: 3px dotted #e5e5e5;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+	margin-bottom: 1px;
+	margin-top: 1em;
+}
+
+#celebrity-details {
+	width: 500px;
+	margin: 1em;
+}
+
+.card-title, .card-subtitle {
+	text-align: center;
+}
+
+#celebrity-img {
+	height: 100px;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-color: #a6a7a91c;
+}
+
+#celeb-quote {
+	text-align: center;
+	font-size: 2em;
+    margin: 1em;
+}
+
+#celeb-link {
+	text-align: center;
+}
