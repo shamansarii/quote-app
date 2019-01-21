@@ -1,7 +1,7 @@
 QUOTE APP
 ---------
 
-You can see website here: https://shamababul123.github.io/quote-app/
+You can see website here: https://shamansarii.github.io/quote-app/
 
 ## WORKSHOP
 
