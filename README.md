@@ -2,7 +2,7 @@ QUOTE APP
 ---------
 You can see website here: https://shamansarii.github.io/quote-app/
 
-### WORKSHOP
+### APP FEATURES
 
 The app is a soft quote app. Your click in the div and get the information for that div. 
 
